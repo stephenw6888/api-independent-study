@@ -17,7 +17,7 @@
 
 <li>Boolean Operators (&& / || / !) Precedence - Allows for boolean operators to be used coincide with other larger form of the expression</li>
 
-<p>&& - Allow a set of code to be equal within "System.out.println(true && true); // prints true" to print out as true.</p> 
+<p>&& - Is an `` and `` operator returning true if both value are the same. Allow a set of code to be equal within "System.out.println(true && true); // prints true" to print out as true.</p> 
 
 <p> Another set of line with false "System.out.println(true && true); // print false" to print out as false. </p>
 
@@ -25,11 +25,15 @@
 
 <p>Expression used as "System.out.println(2 < 3 && 4 < 5);" will print out as true. But it will be the opporite if not used correctly with "< or >".</p>
 
-<p>|| - Is an `` or` `` operator and returns the value as true if one other expression is the opposite is also 'true'. Allow a set of code to used "or"  within "System.out.println(false || false); // prints false" to print out false.</p>
+<p>|| - Is an `` or `` operator and returns the value as true if one other expression is the opposite is also 'true'. Allow a set of code to used "or" within "System.out.println(false || false); // prints false" to print out false.</p>
 
 <p>This lines of codes is opposite if using "System.out.println(false || true); // prints true / System.out.println(true || false); // prints true / System.out.println(true || true); // prints true" to print out true.</p>
 
-<p>! - Is a `` not` `` operator and returns the opposite expression by returning "true" as "false" and "false" as "true".</p>
+<p>! - Is an `` not` `` operator and returns the opposite expression by returning "true" as "false" and "false" as "true". Allow a set of code to used "not" within "System.out.println(!false); // prints true" to return as true.</p>
+
+<p>This lines of codes is opposite if using "System.out.println(!true); // prints false" to return as false</p>
+
+<p>Expression used as "System.out.println( !(4 <= 10) );" to print out as false. But it will be the opporite if not used correctly with "< or >".</p>
 
 <li>If-ElseIf-Else Statement - </li>
 <p></p>
