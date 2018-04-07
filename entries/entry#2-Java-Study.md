@@ -17,7 +17,9 @@
 
 <li>Boolean Operators (&& / || / !) Precedence - Allows for boolean operators to be used coincide with other larger form of the expression</li>
 
-<p>&& - Allow a set of code within ''System.out.println(true && true); // prints true'' to print as true.</p>
+<p>&& - Allow a set of code within "System.out.println(true && true); // prints true" to print out as true. Another set of line with false "System.out.println(true && true); // print false" to print out as false. 
+This line similar to rhe second example "System.out.println(true && false) or (false && true); // print false" will also print out as false. 
+Expression used as "System.out.println(2 < 3 && 4 < 5);" will print out as true. But it will be the opporite if not used correctly with "< or >".</p>
 
 <p>|| - </p>
 
