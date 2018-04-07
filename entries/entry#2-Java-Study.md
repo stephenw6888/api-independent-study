@@ -25,11 +25,11 @@
 
 <p>Expression used as "System.out.println(2 < 3 && 4 < 5);" will print out as true. But it will be the opporite if not used correctly with "< or >".</p>
 
-<p>|| - Is an `` or `` operator and returns the value as true if one other expression is the opposite is also 'true'. Allow a set of code to used "or"  within "System.out.println(false || false); // prints false" to print out false.</p>
+<p>|| - Is an `` or` `` operator and returns the value as true if one other expression is the opposite is also 'true'. Allow a set of code to used "or"  within "System.out.println(false || false); // prints false" to print out false.</p>
 
 <p>This lines of codes is opposite if using "System.out.println(false || true); // prints true / System.out.println(true || false); // prints true / System.out.println(true || true); // prints true" to print out true.</p>
 
-<p>! - Is a `` not `` operator and returns the opposite expression by returning "true" as "false" and "false" as "true".</p>
+<p>! - Is a `` not` `` operator and returns the opposite expression by returning "true" as "false" and "false" as "true".</p>
 
 <li>If-ElseIf-Else Statement - </li>
 <p></p>
