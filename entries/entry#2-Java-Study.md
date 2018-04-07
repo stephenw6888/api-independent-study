@@ -15,13 +15,13 @@
 
 <ol>
 
-<li>Boolean Operators ('&& / || / !') Precedence - Allows for boolean operators to be used coincide with other larger form of the expression</li>
+<li>Boolean Operators (&& / || / !) Precedence - Allows for boolean operators to be used coincide with other larger form of the expression</li>
 
-<p>&&</p>
+<p>&& - Allow a set of code within ''System.out.println(true && true); // prints true'' to print as true.</p>
 
-<p>||</p>
+<p>|| - </p>
 
-<p>!</p>
+<p>! - </p>
 
 <li>If-ElseIf-Else Statement - </li>
 <p></p>
