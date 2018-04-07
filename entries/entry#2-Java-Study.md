@@ -15,16 +15,25 @@
 
 <ol>
 
-<li>Boolean Operators (&& / || / !) Precedence - </li>
-<p>DASDFASFASFASF</p>
+<li>Boolean Operators ('&& / || / !') Precedence - Allows for boolean operators to be used coincide with other larger form of the expression</li>
+
+<p>&&</p>
+
+<p>||</p>
+
+<p>!</p>
 
 <li>If-ElseIf-Else Statement - </li>
+<p></p>
 
 <li>Ternary Conditional - </li>
+<p></p>
 
 <li>Switch Statement - </li>
+<p></p>
 
 <li>Generalizations - </li>
+<p></p>
 
 </ol>
 
