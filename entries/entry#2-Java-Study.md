@@ -10,7 +10,7 @@
 
 <li><a href = "https://www.codecademy.com/courses/learn-java/lessons/conditionals-control-flow/exercises/decisions?action=resume_content_item">Conditionals and Control Flow</a><br></li>
 
-<p>For the second week before Spring Break, I began to learn Conditionals and Control Flow on Wednesday and completed the lessons by late evening Friday. I learned how to control the flow of a program with different values. </p>
+<p>For the second week before Spring Break, I began to learn Conditionals and Control Flow on Wednesday and completed the lessons by late evening Friday. I learned how to control the flow of a program with different values.</p>
 
 
 <ol>
@@ -79,6 +79,7 @@
 
 <p><b>int</b>is used the variable <b>restaurantRating</b> as the value of 3, then can be printed on console by the variable values. If that variable number is equal between 1-3, it should return one of the following <b>case 1-3</b>, but if the number is not equal to the variable, then it should return the <b>default</b> statement.</p>
 
+
 <li>Generalizations - The summary of the recent lessons on Conditionals and Control Flow:</li>
 
 <p>Boolean Operator - <b>&& / || / !</b> are used to create a boolean expressions with a defined order.</p>
@@ -99,14 +100,45 @@
 
 <li><a href = "https://www.codecademy.com/courses/learn-java/lessons/object-oriented-programming/exercises/object-oriented-overview?action=resume_content_item">Object-Oriented Java</a><br></li>
 
-<p></p>
+<p>For the second week before Spring Break, I began to learn Object-Oriented Java on Saturday and completed the lessons by Sunday afternoon. I learned how to create the class with the voicd and attempt to learn about "public" variable.</p>
 
 
 <ol>
 
-<li></li>
+<li>Classes: Syntax - The class sets how the data is structured and behaved by its instructions. It can be used to create a pre-defined class, but the freedom to create a personal custom class (example below).</li>
 
-<li></li>
+``class Dog { }``
+
+<li>Classes:Constructors - The class constructor allows to create the <b>variable</b> instances. The class constructor can receive information about the <b>variable</b>. Java does provide a pre-intial information for the constructor (example below).</li>
+
+``class Car { //The class constructor for the Car class public Car() {}}``
+
+<li>Classes:Instance Variable - The <b>variable</b> class is used to describe the details on what is needed to be associated with (example below). Instance variable is represented as <b>int</b> data type</li>
+
+``class Car { //Using instance variables to model our Car class after a real-life car int modelYear; public Car() {}}``
+
+<li>Classes: Constructor Parameter - Parameter allows for a different variable to be used inside the variable method that is being called from. So parameter would allow data types to create the specific attributes needed (example below). The <b>int variable</b> would be equal to the specific value of the constructor.</li>
+
+``class Car { //Use instance variables to model our Car class after a real-life car int modelYear; public Car(int year) {modelYear = year;}}``
+
+<li>Main Method - Main is used when Java is running in the program and the code of the current <b>main</b> method is executed.</li>
+
+<li>Object - The object is the instance of the current class. Which is currently known as the <b>object</b> within Java (example below). The variable looks for the <b>int</b> parameter.</li>
+
+``class Car { int modelYear; public Car(int year) { modelYear = year; } public static void main(String[] args){ Car myFastCar = new Car(2007);}}``
+
+<li>Methods 1/2 - The method allows the instruction to be pre-defined set. It is declared within the class variable.  It can be provided by Java pre-defined methods of all classes, but we can create our own methods (example below). <b>Void</b> is the keyword that shows no value being returned to the method after the methods are executed. You can specify the location where the data is returning to the return type. The term <b>void</b> is "completely empty" and no values are returned to the method that is being called from. You can also use <b>int and char, etc.</b> to specify the method return value type (example below).</li>
+
+``class Car { int modelYear; public Car(int year) { modelYear = year;} //Our new method to help us get "started" public void startEngine() { System.out.println("Vroom!"); } public static void main(String[] args){ Car myFastCar = new Car(2007); }}``
+
+``class Car { int modelYear; public Car(int year) { modelYear = year; } public void startEngine() { System.out.println("Vroom!"); } public void drive(int distanceInMiles) { System.out.println("Your car drove " + distanceInMiles + " miles!"); } public int numberOfTires() { return 4; } public static void main(String[] args){ Car myFastCar = new Car(2007) myFastCar.startEngine(); myFastCar.drive(1628); int tires = myFastCar.numberOfTires(); System.out.println(tires); }}``
+
+<li>Inheritance - To recycle a programme concept and can be maintained efficiently is called <b>inheritance</b>. It can be shared and used or can inherit the behavior of another class (example below).</li>
+
+``class Car extends Vehicle { int modelYear; public Car(int year) { modelYear = year; } //Other methods omitted for brevity... public static void main(String[] args){ Car myFastCar = new Car(2007) myFastCar.checkBatteryStatus(); }}``
+
+``class Vehicle { public void checkBatteryStatus() { System.out.println("The battery is fully charged and ready to go!"); }}``
+
 
 <li>Generalizations - The summary of the recent lessons on Object-Oriented Java:</li>
 
@@ -118,7 +150,7 @@
 
 <p>Method - The instruction of the object that can be called from.</p>
 
-<p>Parameter - The values that is specifically ised to create the object or calling the method.</p>
+<p>Parameter - The values that are specifically used to create the object or calling the method.</p>
 
 <p>Return Value - Is the specific data type  that the method runs to and return to the data type.</p>
 
