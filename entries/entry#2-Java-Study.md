@@ -100,7 +100,7 @@
 
 <li><a href = "https://www.codecademy.com/courses/learn-java/lessons/object-oriented-programming/exercises/object-oriented-overview?action=resume_content_item">Object-Oriented Java</a><br></li>
 
-<p>For the second week before Spring Break, I began to learn Object-Oriented Java on Saturday and completed the lessons by Sunday afternoon. I learned how to create the class with the voicd and attempt to learn about "public" variable.</p>
+<p>For the second week before Spring Break, I began to learn Object-Oriented Java on Saturday and completed the lessons by Sunday afternoon. I learned how to create the class with the void and attempt to learn about "public" variable.</p>
 
 
 <ol>
@@ -164,29 +164,68 @@
 
 <li><a href = "https://www.codecademy.com/courses/learn-java/lessons/data-structures/exercises/data-structures?action=resume_content_item">Data Structures</a><br></li>
 
-<p></p>
+<p>For the second week before Spring Break, I began to learn Object-Oriented Java on Wednesday and completed the lessons by Friday morning. I learned how to create the iterate over Hash Map while collecting the Array List.</p>
 
 
 <ol>
 
+<li>For Loop - The For Loop is repeatly run through the block of code with specific condition (example shown). Intializzation is the variable of <b>int</b> as the <b>counter</b> to intialize the value of the 0 before the loop can be run. To test conditionals of the boolean <b>counter < 5</b> to evaluate the code when the control statement is run the code statement after running every loop. It can be return as <b>true</b> to let the code block run or <b>false</b> to stop the loop from running. The <b>increment of each loop is completed, the statement is run as the <b>counter</b> increase after each loop.</b></li>
 
-<li></li>
+``for (int counter = 0; counter < 5; counter++) { System.out.println("The counter value is: " + counter); }``
 
-<li></li>
+<li>Array List - IS a list of data for the specific type of data (example below). It is a pre-defined Java class that requires the Array List object.</li>
+
+``ArrayList<Integer> quizGrades = new ArrayList<Integer>();``
+
+<li>Array List Manipulation - To create something that can contain the variable use the following example (below).</li>
+
+``ArrayList<Integer> quizGrades = new ArrayList<Integer>(); quizGrades.add(95); quizGrades.add(87); quizGrades.add(83);``
+
+<li>Array List Access - It is an element index that can refer to the location of the Array list and in Java are a zero-indexed which mean it is at the position of 0 for the Array List (example below). the following example will print out the number 95 with the position at 0 in the Array List by accessing the <b>get</b> method</li>
+
+``ArrayList<Integer> quizGrades = new ArrayList<Integer>(); quizGrades.add(95); quizGrades.add(87); quizGrades.add(73); System.out.println( quizGrades.get(0) );``
+
+<li>Array List Insertion - In order to insert a new element, you can use a different version of the <b>get</b> method (example below).</li>
+
+``ArrayList<Integer> quizGrades = new ArrayList<Integer>(); quizGrades.add(95); quizGrades.add(87); quizGrades.add(73); quizGrades.add(0, 100); System.out.println( quizGrades.get(0) );``
+
+<li>Iterating Array List - We can attempt to retrieve the value, by accessing the specific index Array List (example below). The example initialize the <b>int</b> variable of 1 to set as 0. Then the test condition will run the code block. Finally, the increment increases as the code loops every time. The <b>size</b> method returns the <b>int</b> by how many total elements stored to the variable, as it goes through each element, it is called iteration.</li>
+
+``for (int i = 0; i < quizGrades.size(); i++) { System.out.println( quizGrades.get(i) ); }``
+
+<li>For Each loop - Java can require a shortcut for the amount of code written for the loop of each loop (example below). The colon <b>;</b> is read as "in" and the code is read that each integet element calls the grade within the variable, printing the grade out.</li>
+
+``for (Integer grade : quizGrades){ System.out.println(grade); }``
+
+<li>Hash Map - HashMap has the keys and values of each key.</li>
+
+``HashMap<String, Integer> myFriends = new HashMap<String, Integer>();``
+
+<li>Hash Map Manipulation - The (example below) shows adding the keys and values.</li>
+
+``HashMap<String, Integer> myFriends = new HashMap<String, Integer>(); myFriends.put("Mark", 24); myFriends.put("Cassandra", 25); myFriends.put("Zenas", 21);``
+
+<li>Hashmap Access - You use a specific key to access the Array List data.</li>
+
+``HashMap<String, Integer> myFriends = new HashMap<String, Integer>(); myFriends.put("Mark", 24); myFriends.put("Cassandra", 25); myFriends.put("Zenas", 21); System.out.println( myFriends.get("Zenas") );``
+
+<li>Iterating HashMap - To access the properties of the HashMap, you want to print out the contents variable (example below).</li>
+
+``HashMap<String, Integer> myFriends = new HashMap<String, Integer>(); myFriends.put("Mark", 24); myFriends.put("Cassandra", 25); myFriends.put("Zenas", 21); System.out.println( myFriends.size() ); for (String name: myFriends.keySet()) { System.out.println(name + " is age: " + myFriends.get(name)); }``
 
 <li>Generalizations - The summary of the recent lessons on Data Structures:</li>
 
-<p> For Loops - Used repeated run of a block of code.</p>
+<p>For Loops - Used repeated run of a block of code.</p>
 
 <p>For Each Loops - The concise version of the loop.</p>
 
 <p>Array List - The data thta is stored.</p>
 
-<p>Hash Map - The keys that is stored for associated values such as the dictionary.</p>
+<p>Hash Map - The keys that are stored for associated values such as the dictionary.</p>
 
 </ol>
 
 
 
 <h2>Takeaway on java on Codeacademy</h2>
-<p></p>
+<p>The following takeaway is learning how to </p>
