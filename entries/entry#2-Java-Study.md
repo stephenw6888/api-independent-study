@@ -108,7 +108,21 @@
 
 <li></li>
 
-<li></li>
+<li>Generalizations - The summary of the recent lessons on Object-Oriented Java:</li>
+
+<p>Class - The blueprint for data structure functionality.</p>
+
+<p>Constructor - Instructs for the class to create the intial object state.</p>
+
+<p>Object - The class instance that is storing the state.</p>
+
+<p>Method - The instruction of the object that can be called from.</p>
+
+<p>Parameter - The values that is specifically ised to create the object or calling the method.</p>
+
+<p>Return Value - Is the specific data type  that the method runs to and return to the data type.</p>
+
+<p>Inheritance - One class funtion to define an another class.</p>
 
 </ol>
 
@@ -128,7 +142,15 @@
 
 <li></li>
 
-<li></li>
+<li>Generalizations - The summary of the recent lessons on Data Structures:</li>
+
+<p> For Loops - Used repeated run of a block of code.</p>
+
+<p>For Each Loops - The concise version of the loop.</p>
+
+<p>Array List - The data thta is stored.</p>
+
+<p>Hash Map - The keys that is stored for associated values such as the dictionary.</p>
 
 </ol>
 
