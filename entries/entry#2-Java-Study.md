@@ -27,7 +27,7 @@
 
 <p>|| - Is an or operator and returns the value as true if one other expression is the opposite is also 'true'. Allow a set of code to used "or" within "System.out.println(false || false); // prints false" to print out false.</p>
 
-<p>This lines of codes is opposite if using to print out true.</p>
+<p>This lines of codes is opposite if using (below) to print out true.</p>
 
 ``System.out.println(false || true); // prints true / System.out.println(true || false); // prints true / System.out.println(true || true); // prints true``
 
@@ -39,7 +39,7 @@
 
 <li>If-ElseIf-Else Statement - </li>
 
-<p>If - If is an conditionals statements and is followed by a block of code with the expression as true and run forever.</p>
+<p>If - If is an conditionals statements and is followed by a block of code with the expression as true and run forever. (Below) is an example of conditionals expression as it will return true for "Control flow rocks!" as printed in console. If the line of code is not currently using <b>;</b>, it will use curly bracket <b>{}</b> to run the blokc of code as true.</p>
 
 ``if (9 > 2) {System.out.println("Control flow rocks!");}``
 
