@@ -30,7 +30,7 @@
 <p>This lines of codes is opposite if using to print out true.</p>
 ``System.out.println(false || true); // prints true / System.out.println(true || false); // prints true / System.out.println(true || true); // prints true``
 
-<p>! - Is an not operator and returns the opposite expression by returning "true" as "false" and "false" as "true". Allow a set of code to used "not" within "System.out.println(!false); // prints true" to return as true.</p>
+<ul>! - Is an not operator and returns the opposite expression by returning "true" as "false" and "false" as "true". Allow a set of code to used "not" within "System.out.println(!false); // prints true" to return as true.</ul>
 
 <p>This lines of codes is opposite if using "System.out.println(!true); // prints false" to return as false</p>
 
