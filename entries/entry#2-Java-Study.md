@@ -28,9 +28,10 @@
 <p>|| - Is an or operator and returns the value as true if one other expression is the opposite is also 'true'. Allow a set of code to used "or" within "System.out.println(false || false); // prints false" to print out false.</p>
 
 <p>This lines of codes is opposite if using to print out true.</p>
+
 ``System.out.println(false || true); // prints true / System.out.println(true || false); // prints true / System.out.println(true || true); // prints true``
 
-<ul>! - Is an not operator and returns the opposite expression by returning "true" as "false" and "false" as "true". Allow a set of code to used "not" within "System.out.println(!false); // prints true" to return as true.</ul>
+<p>! - Is an not operator and returns the opposite expression by returning "true" as "false" and "false" as "true". Allow a set of code to used "not" within "System.out.println(!false); // prints true" to return as true.</p>
 
 <p>This lines of codes is opposite if using "System.out.println(!true); // prints false" to return as false</p>
 
