@@ -219,7 +219,7 @@
 
 <p>For Each Loops - The concise version of the loop.</p>
 
-<p>Array List - The data thta is stored.</p>
+<p>Array List - The data that is stored.</p>
 
 <p>Hash Map - The keys that are stored for associated values such as the dictionary.</p>
 
@@ -228,4 +228,4 @@
 
 
 <h2>Takeaway on java on Codeacademy</h2>
-<p>The following takeaway is learning how to </p>
+<p>The following takeaway is learning how to find the format for a game in Java as a foundation to start with. My partner Simeon, told me to watch a tutorial video on this and I am going to spend some time with the video. Adding on, we are planning to use Eclispe and I am going to need to review myself on the Eclispe function before starting out. What I had learned is learning how to make a shorter block of code using the switch method. I a still a bit confuse on Arrays and hashes but I can understand that hash grabs a specific keys and arrays is where data from the current block of code is stored inside a variable.</p>
