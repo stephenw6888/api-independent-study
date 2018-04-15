@@ -11,6 +11,7 @@
 <li>The <b>src</b> folder where everything are organized. The name of the folder can be created based on what you prefer to call it on your Java program.</li>
 
 <img src="/api-independent-study/images/entry#3/Vid 1 To click on src to create the folder file.PNG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+![/api-independent-study/images/entry#3/Vid 1 To click on src to create the folder file.PNG](/api-independent-study/images/entry#3/Vid 1 To click on src to create the folder file.PNG)
 
 
 <li>After you created the package, right click abover the file and you will be able to create a new <b>Class</b>. Basically is where the screen will be formatted and where it is handled and the main method of your game.</li>
