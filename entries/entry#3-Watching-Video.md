@@ -15,7 +15,7 @@
 
 <li>After you created the package, right click on the file and you will be able to create a new <b>Class</b>. Basically is where the screen will be formatted and where it is handled and the main method of your game.</li>
 
-![Game_Loop](/api-independent-study/entries/images/entry#3/gameloop.jpg)
+![Game_Loop](entry#3/gameloop.jpg)
 
 
 <li>Eclipse allow you to place your cursor above a variable. If you are hovering over "Canvas" you can click on import to import the following below.</li>
