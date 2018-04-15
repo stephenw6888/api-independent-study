@@ -10,7 +10,7 @@
 
 <li>The <b>src</b> folder where everything are organized. The name of the folder can be created based on what you prefer to call it on your Java program.</li>
 
-<img src="/../images/entry#3/vid-1-after-right-clicking-to-create-new-class.jpg" style="width:500px;height:600px;">
+<img src="/api-independent-study/images/entry#3/vid-1-after-right-clicking-to-create-new-class.jpg" style="width:500px;height:600px;">
 
 
 <li>After you created the package, right click abover the file and you will be able to create a new <b>Class</b>. Basically is where the screen will be formatted and where it is handled and the main method of your game.</li>
@@ -21,7 +21,13 @@
 
 
 
-<li></li>
+<li>After you create the main method, you have to create an another class call <b>Window.java</b> as a another file. You would have to click on <b>Window</b> and right click on the generator to generate the class. A shortcut to get the <b>Canvas Impoort</b> by Contol + Shift + o. After this, you create the public Window below:</li>
+
+``public Window(int width, int height, String title){ }``
+
+<li>After this, you create the JFrame below:</li>
+
+``JFrame frame = new JFrame(title);``
 
 <li></li>
 
