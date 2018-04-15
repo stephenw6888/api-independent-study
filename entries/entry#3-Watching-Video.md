@@ -25,22 +25,32 @@
 
 ``public Window(int width, int height, String title){ }``
 
+
 <li>After this, you create the JFrame below: Creating a new Dimension oof the width and height, then copy and paste two more time. Using <b>.setPreferredSize</b>, <b>.setMaximumSize</b>, <b>.setMinimumSize</b>.</li>
 
 ``JFrame frame = new JFrame(title);``
+
 
 <li>Adding on, you want to have the frame be set to exit on close such example as: After this, you want to have the <b>Resizeable</b> as false and <b>LocationRelative</b> to be null. Make sure to use <b>.add</b> as game and <b>Visible</b> to be true.</li>
 
 ``JFrame.EXIT_ON_CLOSE``
 
+
 <li>Inside the Game.Java, you want to create a new method of the game classs. Making the window with the width and height with the title. Depending how big your window will be, your aspect ratio would return with the size. Creating the <b>private Thread thread</b> to create the game format and getting started as you add the <b>boolean running = false;</b> where the thread will be running on.</li>
+
 
 <li>After this, you create an if statement as <b> try { catch(Exception e) { } }</b> usinf a catch statement if it can run, but if it cannot, then it run the next code. Make sure to add <b>thread.join</b> and <b>running = false</b>.</li>
 
+
 <li>A game require a game loop so that the game can update itself, used by every video game creator. A familiar game loop used by a lot of people is below.</li>
 
-![alt text][id]
-[id]: gameloop.jpg "Game Loop"
+<a href = "http://www.java-gaming.org/index.php?topic=24220.0">Game Loop Logic</a><br>
+
+
+<li>You want to limit the FPS. by adding in a buffer strategy inside the render method. It will be this below. After you have <b>bs == null</b>, You want to set the buffer to 3 to set the amount of buffer created. No more then three, two is fine. You will see the flashing due to decrease buffer. You want to set the color as black and the width as <b>(0,0 WIDTH, HEIGHT)</b> to have a black screen.</li>
+
+``BufferStrategy bs = this.getBufferStartegy()``
+
 
 </ol>
 
