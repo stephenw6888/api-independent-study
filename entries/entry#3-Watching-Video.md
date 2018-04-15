@@ -4,7 +4,7 @@
 
 <h2>Watching YouTube Videos: RealTutsGML</h2>
 
-<p>After watching RealTutsGML first vidoe, I learn a lot of interesting mechanic on Eclipse and the Java language. This is a basic format to creating a Java game</p>
+<p>After watching RealTutsGML first vidoe, I learn a lot of interesting mechanic on Eclipse and the Java language. This is a basic format to creating a Java game. This tutuorial explained by the YouTuber is the main program to set up the game to make it work.</p>
 
 <ol>
 
@@ -25,13 +25,21 @@
 
 ``public Window(int width, int height, String title){ }``
 
-<li>After this, you create the JFrame below:</li>
+<li>After this, you create the JFrame below: Creating a new Dimension oof the width and height, then copy and paste two more time. Using <b>.setPreferredSize</b>, <b>.setMaximumSize</b>, <b>.setMinimumSize</b>.</li>
 
 ``JFrame frame = new JFrame(title);``
 
-<li></li>
+<li>Adding on, you want to have the frame be set to exit on close such example as: After this, you want to have the <b>Resizeable</b> as false and <b>LocationRelative</b> to be null. Make sure to use <b>.add</b> as game and <b>Visible</b> to be true.</li>
 
-<li></li>
+``JFrame.EXIT_ON_CLOSE``
+
+<li>Inside the Game.Java, you want to create a new method of the game classs. Making the window with the width and height with the title. Depending how big your window will be, your aspect ratio would return with the size. Creating the <b>private Thread thread</b> to create the game format and getting started as you add the <b>boolean running = false;</b> where the thread will be running on.</li>
+
+<li>After this, you create an if statement as <b> try { catch(Exception e) { } }</b> usinf a catch statement if it can run, but if it cannot, then it run the next code. Make sure to add <b>thread.join</b> and <b>running = false</b>.</li>
+
+<li>A game require a game loop so that the game can update itself, used by every video game creator. A familiar game loop used by a lot of people is below.</li>
+
+<img src="/api-independent-study/images/entry#3/gameloop.PNG" alt="Game Loop" style="width:500px;height:600px;">
 
 </ol>
 
@@ -46,5 +54,7 @@
 <li>If you want to learn something but you are a beginner for a certain language, make sure to search up YouTube videos to help you or ask your collagues for lessons on it.</li>
 
 <li>Make sure to take notes when you first watch the video, then you can rewatch again, listening about details you might had missed.</li>
+
+<li>What I learn that taking information from a video and into notes is hard, but just make sure to take your time on it.</li>
 
 </ol>
