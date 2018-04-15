@@ -44,7 +44,7 @@
 
 <li>A game requires a game loop so that the game can update itself, used by every video game creator. A familiar game loop used by a lot of people is below.</li>
 
-!{Game_Loop}(gameloop.jpg)
+![Game_Loop](gameloop.jpg)
 
 <a href = "http://www.java-gaming.org/index.php?topic=24220.0">Game Loop Logic</a><br>
 
