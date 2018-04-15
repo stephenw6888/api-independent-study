@@ -40,7 +40,7 @@
 <li>A game require a game loop so that the game can update itself, used by every video game creator. A familiar game loop used by a lot of people is below.</li>
 
 ![alt text][id]
-[id]: /api-independent-study/images/entry#3/gameloop.jpg "Game Loop"
+[id]: gameloop.jpg "Game Loop"
 
 </ol>
 
