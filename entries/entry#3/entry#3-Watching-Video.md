@@ -17,12 +17,16 @@
 
 ![Game_Loop](class-file.jpg)
 
+<p>Top is before, bottom is after:</p>
+
 ![Game_Loop](image-after-class.jpg)
 
 
 <li>Eclipse allow you to place your cursor above a variable. If you are hovering over "Canvas" you can click on import to import the following below.</li>
 
 ![Game_Loop](image-hover-canvas.jpg)
+
+<p>Top is before, bottom is after:</p>
 
 ![Game_Loop](image-after-canvas.jpg)
 
