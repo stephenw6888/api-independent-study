@@ -73,6 +73,7 @@
 
 ``BufferStrategy bs = this.getBufferStartegy()``
 
+![buffer](image-buffer.jpg)
 
 </ol>
 
