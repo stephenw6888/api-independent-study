@@ -35,21 +35,17 @@
 
 ``public Window(int width, int height, String title){ }``
 
-
-
-
 <li>After this, you create the JFrame below: Creating a new Dimension oof the width and height, then copy and paste two more time. Using <b>.setPreferredSize</b>, <b>.setMaximumSize</b>, <b>.setMinimumSize</b>.</li>
 
 ``JFrame frame = new JFrame(title);``
-
-
-
 
 <li>Adding on, you want to have the frame be set to exit on close such example as: After this, you want to have the <b>Resizeable</b> as false and <b>LocationRelative</b> to be null. Make sure to use <b>.add</b> as game and <b>Visible</b> to be true.</li>
 
 ``JFrame.EXIT_ON_CLOSE``
 
+![game_loop](image-JFrame.jpg)
 
+<p>Above uses number 4,5 and 6 on the list.</p>
 
 
 <li>Inside the Game.Java, you want to create a new method of the game class. Making the window with the width and height of the title. Depending on how big your window will be, your aspect ratio would return with the size. Creating the <b>private Thread thread</b> to create the game format and getting started as you add the <b>boolean running = false;</b> where the thread will be running on.</li>
