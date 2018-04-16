@@ -35,7 +35,7 @@
 
 ``public Window(int width, int height, String title){ }``
 
-![Game_Loop](.jpg)
+
 
 
 <li>After this, you create the JFrame below: Creating a new Dimension oof the width and height, then copy and paste two more time. Using <b>.setPreferredSize</b>, <b>.setMaximumSize</b>, <b>.setMinimumSize</b>.</li>
@@ -54,12 +54,11 @@
 
 <li>Inside the Game.Java, you want to create a new method of the game class. Making the window with the width and height of the title. Depending on how big your window will be, your aspect ratio would return with the size. Creating the <b>private Thread thread</b> to create the game format and getting started as you add the <b>boolean running = false;</b> where the thread will be running on.</li>
 
-
-
-
 <li>After this, you create an if statement as <b> try { catch(Exception e) { } }</b> usinf a catch statement if it can run, but if it cannot, then it run the next code. Make sure to add <b>thread.join</b> and <b>running = false</b>.</li>
 
+![game_loop](image-thread.jpg)
 
+<p>Above uses number 7 and 8 on the list.</p>
 
 
 <li>A game requires a game loop so that the game can update itself, used by every video game creator. A familiar game loop used by a lot of people is below.</li>
