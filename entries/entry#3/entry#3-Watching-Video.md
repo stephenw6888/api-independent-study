@@ -16,12 +16,14 @@
 <li>After you created the package, right click on the file and you will be able to create a new <b>Class</b>. Basically is where the screen will be formatted and where it is handled and the main method of your game.</li>
 
 ![Game_Loop](class-file.jpg)
+
 ![Game_Loop](image-after-class.jpg)
 
 
 <li>Eclipse allow you to place your cursor above a variable. If you are hovering over "Canvas" you can click on import to import the following below.</li>
 
 ![Game_Loop](image-hover-canvas.jpg)
+
 ![Game_Loop](image-after-canvas.jpg)
 
 
@@ -29,7 +31,7 @@
 
 ``public Window(int width, int height, String title){ }``
 
-![Game_Loop](image-after-class.jpg)
+![Game_Loop](.jpg)
 
 
 <li>After this, you create the JFrame below: Creating a new Dimension oof the width and height, then copy and paste two more time. Using <b>.setPreferredSize</b>, <b>.setMaximumSize</b>, <b>.setMinimumSize</b>.</li>
