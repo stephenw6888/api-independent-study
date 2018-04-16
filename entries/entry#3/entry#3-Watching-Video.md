@@ -10,25 +10,25 @@
 
 <li>The <b>src</b> folder where everything are organized. The name of the folder can be created based on what you prefer to call it on your Java program.</li>
 
-![Game_Loop](image-src-file.jpg)
+![src_loop](image-src-file.jpg)
 
 
 <li>After you created the package, right click on the file and you will be able to create a new <b>Class</b>. Basically is where the screen will be formatted and where it is handled and the main method of your game.</li>
 
-![Game_Loop](class-file.jpg)
+![before_class](image-class-file.jpg)
 
 <p>Top is before, bottom is after:</p>
 
-![Game_Loop](image-after-class.jpg)
+![after_class](image-after-class.jpg)
 
 
 <li>Eclipse allow you to place your cursor above a variable. If you are hovering over "Canvas" you can click on import to import the following below.</li>
 
-![Game_Loop](image-hover-canvas.jpg)
+![before_canvas](image-hover-canvas.jpg)
 
 <p>Top is before, bottom is after:</p>
 
-![Game_Loop](image-after-canvas.jpg)
+![after_canvas](image-after-canvas.jpg)
 
 
 <li>After you create the main method, you have to create another class call <b>Window.java</b> as another file. You would have to click on <b>Window</b> and right click on the generator to generate the class. A shortcut to get the <b>Canvas Impoort</b> by Contol + Shift + o. After this, you create the public Window below:</li>
@@ -64,7 +64,7 @@
 
 <li>A game requires a game loop so that the game can update itself, used by every video game creator. A familiar game loop used by a lot of people is below.</li>
 
-![Game_Loop](image-gameloop.jpg)
+![game_loop](image-gameloop.jpg)
 
 <a href = "http://www.java-gaming.org/index.php?topic=24220.0">Game Loop Logic</a><br>
 
