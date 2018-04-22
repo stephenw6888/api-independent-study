@@ -15,7 +15,9 @@
 <p>The <b>vel</b> of X, and Y allow it to control the speed of the object.</p>
 
 ``protected int x, y;`` 
+
 ``protected ID id;``
+
 ``protected int velX, velY``
 
 
