@@ -1,6 +1,7 @@
 <h1>Java API-Independent-Study</h1>
 <p>Learning to make a game out of Java for the next 9 week, the third week, I watch a Yotube series on how to make a game in Java.</p>
 <a href = "https://www.youtube.com/watch?v=0T1U0kbu1Sk">Java Programming: Let's Build a Game #2</a><br>
+<a href = "https://www.youtube.com/watch?v=bWHYjLJZswQ">Java Programming: Let's Build a Game #3</a><br>
 
 <h2>Watching YouTube Videos: RealTutsGML/Copying down the foundation to creating a java game.</h2>
 
