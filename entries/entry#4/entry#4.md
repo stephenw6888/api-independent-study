@@ -70,7 +70,7 @@
 
 <li>KeyInput Class</li>
 
-<p>Key Adapter allows for a functional key pressed and released buttons. Capitalize <b>P and R<b>. Set the key to grabbing a letter binding on the keyboard inside the keyPressed. </p>
+<p>Key Adapter allows for a functional key pressed and released buttons. Capitalize <b>P and R</b>. Set the key to grabbing a letter binding on the keyboard inside the keyPressed. </p>
 
 ``public class KeyInput extends KeyAdapter{ private Handler handler;   }``
 
