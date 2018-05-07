@@ -2,8 +2,6 @@
 
 <h2>Watching a YouTuber by the name of "ForeignGuyMike" for examples on a side-scroller game.</h2>
 
-<a href = "https://www.youtube.com/watch?v=9dzhgsVaiSo&list=PLX0xZJGWHYp2wPT9QLu7uAnDDZeUP9p77&index=0">Java 2D Game Programming Platformer Tutorial</a><br>
-
 <p>My partners and I had some majors difficulties during our research on the video we are learning from. Since we planned to make a side-scroller game, we were unable to get a basic idea of how to get our code to work. I accidentally stumbled on a video called Dragon Tale Java game and we found an example for us to use as a replacement for our video research.</p>
 
 <li>What is Going On?</li>
