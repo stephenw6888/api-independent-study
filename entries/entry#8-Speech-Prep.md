@@ -17,7 +17,7 @@
 <p>Our MVP, Super Larios Bros. is developing well. The first level of our game is finished. Minor problems that can be fixed can be repaired easily. We began on adding in a second level and a help menu. Adding on, we were able to create our first boss for the first level. The sprites attack animation for Lario is buggy but it is not a massive problem. The second level is a bit buggy due to the enemy layout being different and the map is still at work.</p>
 
 
-<li>Presentation</li>
+<li>Presentation - SEP EXPO</li>
 
 <p>On Thursday, my partners and other students from different grades was given an example presentation from our teacher for the SEP EXPO. During the weekend, my partners and I began to create a slideshow and spreading out roles and details management under the three of us. We still need to add more things to the slides.</p>
 
